@@ -1,0 +1,13 @@
+@reference "../../styles.css";
+
+h1 {
+  @apply mb-4 text-3xl font-bold text-blue-700;
+}
+
+button {
+  @apply rounded bg-blue-700 px-4 py-2 font-medium text-white hover:bg-blue-400 cursor-pointer;
+}
+
+button:disabled {
+  @apply cursor-not-allowed opacity-50;
+}
